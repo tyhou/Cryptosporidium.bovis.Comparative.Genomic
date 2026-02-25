@@ -1,0 +1,53 @@
+LABELS
+#use this template to change the leaf labels, or define/change the internal node names
+#additionally, you can specify a custom class for internal nodes, which can be used to automatically collapse them
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file.
+
+SEPARATOR TAB
+#SEPARATOR SPACE
+#SEPARATOR COMMA
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+DATA
+#NODE_ID,LABEL,CLASS
+
+#Examples
+
+#note that the class field is optional
+
+#define a name and class for an internal node. Class 'kingdom' will be available when using the automatic clade collapsing function
+#9031|9606,Metazoa,kingdom
+
+#change the label for leaf node 9606
+#9606,Homo sapiens
+SCAU33642	SCAU33642-CH-GD-XXVIe
+SCAU34453	SCAU34453-CH-GD-XXVIb
+SCAU34576	SCAU34576-CH-GD-XXVIa
+SCAU35488	SCAU35488-CH-GD-XXVIa
+SCAU38369	SCAU38369-CH-GD-Mixed
+SCAU38389	SCAU38389-CH-GD-XXVId
+SCAU40829	SCAU40829-CH-GD-XXVIe
+SCAU41351	SCAU41351-CH-GD-XXVIe
+SCAU39634	SCAU39634-ZC-GD-XXVIc
+SCAU39638	SCAU39638-ZC-GD-XXVIb
+SCAU42927	SCAU42927-ZC-GD-Mixed
+SCAU53870	SCAU53870-ZC-GD-XXVIa
+SCAU24174	SCAU24174-ZQ-GD-XXVIa
+SCAU24365	SCAU24365-ZQ-GD-XXVIa
+SCAU24463	SCAU24463-ZQ-GD-XXVIb
+SCAU42270	SCAU42270-ZQ-GD-XXVIc
+SCAU42290	SCAU42290-ZQ-GD-XXVIc
+CDC45015	CDC45015-ZQ-GD-XXVIb
+SCAU24691	SCAU24691-HB-XXVId
+SCAU48455	SCAU48455-NX-XXVIb
+SCAU48472	SCAU48472-NX-XXVIb
+CDC42441	CDC42441-SH-XXVIc
+CDC42482	CDC42482-SH-XXVIa
